@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Radio Canada', sans-serif;
+}
+body{
+    background-color: aqua;
+}
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+.header h1{
+    text-align: center;
+}
+.box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:35px;
+}
+.row
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 75px;
+    width: 75px;
+    margin: 2px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+
+}
+.btn:hover{
+    cursor: grab;
+    background-color: rgb(240,240,240);
+}
+.btn:disabled
+{
+    color: black;
+    cursor: no-drop;
+    background-color:red;
+}
+.result
+{
+    text-align: center;
+}
+.reset
+{
+    text-align: center;
+}
+#reset
+{
+    border: 1px;
+    cursor: pointer;
+    color: black;
+    background-color:rgb(172, 172, 199);
+    padding: 5px 20px;
+    transition: all 0.1s ease-in-out;
+}
+#reset:hover
+{
+    color: rgb(242, 246, 244);
+    background-color: black;
+}
